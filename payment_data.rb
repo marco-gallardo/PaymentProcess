@@ -1,11 +1,11 @@
 load 'info_base.rb'
 class PaymentData < InfoBase
   def initialize
-   @first_name = ask_first_name()
-   @second_name = ask_second_name()
-   @address = ask_address()
-   @address2 = ask_address2()
-   @city = ask_city()
+    @first_name = ask_first_name()
+    @second_name = ask_second_name()
+    @address = ask_address()
+    @address2 = ask_address2()
+    @city = ask_city()
   end
 
   def ask_first_name()
